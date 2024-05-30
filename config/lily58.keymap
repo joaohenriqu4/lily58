@@ -31,11 +31,11 @@
 
             display-name = "Base";
             bindings = <
-&mt LC(LA(DEL)) ESC  &kp N1  &kp N2  &kp N3       &kp N4       &mt LC(LG(N5)) N5                                          &kp N6  &kp N7    &kp N8         &kp N9   &kp N0    &mt EQUAL BACKSPACE
-&mt CAPSLOCK TAB     &kp Q   &kp W   &kp E        &kp R        &kp T                                                      &kp Y   &kp U     &kp I          &kp O    &kp P     &kp GRAVE
-&kp LSHIFT           &kp A   &kp S   &kp D        &kp F        &kp G                                                      &kp H   &kp J     &kp K          &kp L    &kp SEMI  &kp MINUS
-&kp LEFT_CONTROL     &kp Z   &kp X   &mt LC(C) C  &mt LC(V) V  &kp B              &mt LC(LG(Q)) LEFT_BRACKET    &kp RBKT  &kp N   &kp M     &kp COMMA      &kp DOT  &kp FSLH  &kp SQT
-                                     &kp LALT     &kp LGUI     &mo 1              &kp SPACE                     &kp RET   &mo 2   &kp RGUI  &kp BACKSLASH
+&mt LC(LA(DEL)) ESC  &kp N1       &kp N2  &kp N3       &kp N4       &mt LG(LS(N5)) N5                                          &kp N6  &kp N7    &kp N8         &kp N9   &kp N0       &mt EQUAL BACKSPACE
+&mt CAPSLOCK TAB     &kp Q        &kp W   &kp E        &kp R        &kp T                                                      &kp Y   &kp U     &kp I          &kp O    &mt LG(P) P  &mt EQUAL GRAVE
+&kp LSHIFT           &kp A        &kp S   &kp D        &mt LG(F) F  &kp G                                                      &kp H   &kp J     &kp K          &kp L    &kp SEMI     &kp MINUS
+&kp LEFT_CONTROL     &mt LG(Z) Z  &kp X   &mt LG(C) C  &mt LG(V) V  &kp B              &mt LC(LG(Q)) LEFT_BRACKET    &kp RBKT  &kp N   &kp M     &kp COMMA      &kp DOT  &kp FSLH     &kp SQT
+                                          &kp LALT     &kp LGUI     &mo 1              &kp SPACE                     &kp RET   &mo 2   &kp RGUI  &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
