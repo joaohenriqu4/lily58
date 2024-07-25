@@ -32,11 +32,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC           &kp N1       &kp N2       &kp N3       &kp N4       &mt LG(LS(N5)) N5                                          &kp N6  &kp N7    &kp N8         &mt RS(RG(N9)) N9  &kp N0       &kp BACKSPACE
-&mt CAPSLOCK TAB  &kp Q        &kp W        &kp E        &kp R        &kp T                                                      &kp Y   &kp U     &kp I          &kp O              &mt LG(P) P  &mt EQUAL GRAVE
-&kp LSHIFT        &kp A        &kp S        &kp D        &mt LG(F) F  &kp G                                                      &kp H   &kp J     &kp K          &kp L              &kp SEMI     &kp MINUS
-&kp LEFT_CONTROL  &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C  &mt LG(V) V  &kp B              &mt LC(LG(Q)) LEFT_BRACKET    &kp RBKT  &kp N   &kp M     &kp COMMA      &kp DOT            &kp FSLH     &kp SQT
-                                            &kp LALT     &kp LGUI     &mo 1              &kp SPACE                     &kp RET   &mo 2   &kp RGUI  &kt BACKSLASH
+&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4       &mt LG(LS(N5)) N5                                          &kp N6  &kp N7    &kp N8         &mt RS(RG(N9)) N9  &kp N0       &kp BACKSPACE
+&mt CAPSLOCK TAB  &kp Q   &kp W   &kp E     &kp R        &kp T                                                      &kp Y   &kp U     &kp I          &kp O              &mt LG(P) P  &mt EQUAL GRAVE
+&kp LSHIFT        &kp A   &kp S   &kp D     &mt LG(F) F  &kp G                                                      &kp H   &kp J     &kp K          &kp L              &kp SEMI     &kp MINUS
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V        &kp B              &mt LC(LG(Q)) LEFT_BRACKET    &kp RBKT  &kp N   &kp M     &kp COMMA      &kp DOT            &kp FSLH     &kp SQT
+                                  &kp LALT  &kp LGUI     &mo 1              &kp SPACE                     &kp RET   &mo 2   &kp RGUI  &kt BACKSLASH
             >;
         };
 
